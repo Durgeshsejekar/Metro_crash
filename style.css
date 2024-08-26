@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.navbar{
+    width: 100%;
+    height: 9vh;
+    background-color: #33435B;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding-left: 65px;
+}
+.main-container .navbar img{
+    width: 8.5%;
+    
+}
+.main-container .navbar button{
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main-container .navbar button i{
+    padding-right: 10px;
+}
+.main-container .firstpart{
+    width: 100%;
+    height: auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.main-container .firstpart img{
+    width: 93%;
+    height: 450px;
+    margin-top: 17px;
+}
+.main-container .firstpart .boxsection{
+    width: 100%;
+    height: 200px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+   
+}
+.main-container .firstpart .boxsection .box{
+    width: 315px;
+    height: 130px;
+    background-color:#a9c8f6;
+    padding-top: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2.5;
+}
+.main-container .firstpart .boxsection .box img{
+    width: 60px;
+    height: auto;
+    /* margin-bottom: 100px; */
+    /* background-color: chartreuse; */
+}
+.main-container .firstpart .boxsection .box h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+ padding-bottom: 180px;
+ font-size: 22px;
+ color: #002D72;
+}
+.main-container .secondpart{
+    width: 100%;
+    height: auto;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.main-container .secondpart .box-section{
+    width: 93%;
+    height: 250px;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.main-container .secondpart .box-section .box{
+    width: 220px;
+    height: 240px;
+    /* background-color: chartreuse; */
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.main-container .secondpart .box-section .box img{
+    padding-left: 120px;
+    padding-top: 15px;
+}
+#xyz{
+    background-color: white;
+}
+#mno{
+    background-color: #0059E4;
+}
+.thirdpart{
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.thirdpart .imgpart{
+    width: 92%;
+    height: 440px;
+    background-color: #FFED00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.thirdpart .imgpart .left{
+    width: 30%;
+    height: 440px;
+    padding: 30px;
+}
+.thirdpart .imgpart .right{
+    width: 70%;
+    height: 440px;
+    background-image: url(assets/Apply\ for\ METRO\ Card\ Hero\ Teaser.jpg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 13% 100%);
+}
+.thirdpart .imgpart .left h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    font-weight: 1500;
+    color: #002D72;
+}
+.thirdpart .imgpart .left h6{
+    font-size: 18px;
+    color: #002D72;
+    margin-top: 37px;
+
+}
+.thirdpart .imgpart .left button{
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: #0059E4;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 37px;
+}
+
+.fourthpart{
+    width: 100%;
+    height: auto;
+    /* background-color: #4ed34c; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+.fourthpart .boxsection{
+    width: 65%;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fourthpart .boxsection .box{
+    width: 311px;
+    height: 180px;
+    /* background-color: bisque; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourthpart .boxsection .box h3{
+    padding-top: 13px;
+    color: #002D72;
+}
+.fourthpart .boxsection .box h4{
+    color: #33435B;
+    padding-top: 10px;
+}
+#pqr{
+    margin-top: 20px;
+}
+.fifthpart{
+
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.fifthpart .boxsection{
+    width: 100%;
+    height: 290px;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fifthpart .boxsection .box{
+    width: 290px;
+    height: 290px;
+    /* background-color: violet; */
+    padding: 18px;
+    line-height: 1.8;
+    text-decoration: none;
+    /* list-style: none; */
+    
+}
+.fifthpart .boxsection .box ul li{
+    list-style: none;
+    color: #002D72;
+}
+
+
+.fifthpart .boxsection .box h1{
+    font-size: 20px;
+    color: #002D72;
+    
+    
+}
+#lkj{
+    padding-right: 10px;
+}
+#jkl{
+    padding-right: 10px;
+}
+
+.fifthpart .notesection{
+    width: 90%;
+    height: 6vh;
+    background-color: #cde1ff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 11px;
+    color: #33435B;
+
+}
+#dfg{
+    padding-top: 10px;
+
+}
+#mnb{
+    color: #33435B;
+    padding-right: 70%;
+    padding-top: 30px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.sixthpart{
+    width: 100%;
+    height: 10vh;
+    background-color: #002D72;
+    display: flex;
+    align-items: center;
+}
+.sixthpart a{
+    color: white;
+    font-size: 20px;
+
+}
+#cxz{
+    /* padding-right: 60px; */
+    padding-left: 45px;
+    /* background-color: #FFED00; */
+}
+#zxc{
+    /* background-color: #FFED00; */
+    padding-left: 75px;
+}
+
+@media (max-width: 768){
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+
+
